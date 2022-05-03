@@ -16,6 +16,11 @@ def get_lemonade_data():
     
     df.columns = df.columns.str.lower()
     
+    # Convert to datetime and set index on date
+    df = df.set_index(pd.to_datetime(df.date))
+    
+    df['month'] = df.index.month_name()
+    
     return df
 
 

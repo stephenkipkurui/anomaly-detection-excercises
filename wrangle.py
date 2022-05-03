@@ -4,22 +4,28 @@ import math
 
 import acquire
 
-def get_lower_and_upper_bounds(col, multiplier):
+def get_lower_and_upper_bounds(col):
     
     '''
     Function for the continuous probabilistic methods to identify outliers (using multiplier of 1.5)
     '''
-    multiplier = 1.5
+    multiplier = float(input('Enter value for multiplier: '))
     
-    q1 = col.quantile(0.25)
-    q3 = col.quantile(0.75)
+    if multiplier: 
+    
+        q1 = col.quantile(0.25)
+        q3 = col.quantile(0.75)
 
-    iqr = q3 - q1
+        iqr = q3 - q1
     
-    lower_bound = q1 - multiplier * iqr
-    upper_bound = q3 + multiplier * iqr
+        lower_bound = q1 - multiplier * iqr
+        upper_bound = q3 + multiplier * iqr
     
-    return lower_bound, upper_bound
+        return lower_bound, upper_bound
+    else:
+        print('Multiplier value required to view results.')
+        multiplier = float(input('Enter value for multiplier: '))
+
 
 
 def parse_api_logs_data(entry):
@@ -79,12 +85,9 @@ def parse_curriculum_access_data():
     
     # Fill nulls with 0
     df = df.fillna(0)
-       
-    # Convert timestamp to datetime format
-    df.date = pd.to_datetime(df.date)
-    
-    # index customer id column
-    df = df.set_index('date').sort_index()
+
+    # set datetime index, combine date and time columns
+    df = df.set_index(pd.to_datetime(df.date+' '+df.time))
     
     # Initial rename col name 
     df = df.rename(columns = {0:'curriculum'})
