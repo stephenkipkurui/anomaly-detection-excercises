@@ -55,8 +55,7 @@ def get_curriculum_logs():
     '''
     Function to acquire curriculum.txt data for clustering anomally detection
     '''
-
-    # url = 'https://classroom.google.com/c/NDQ2NzY2NDY1ODM0/p/NTEwNzA4MTAwNzEw/details'
+#     url = 'https://classroom.google.com/c/NDQ2NzY2NDY1ODM0/p/NTEwNzA4MTAwNzEw/details'
 
     df = pd.read_table('curriculum-access.txt', header=None, sep = '\s', 
                        names = ['date', 'time', 'page', 'id', 'cohort', 'ip'])
