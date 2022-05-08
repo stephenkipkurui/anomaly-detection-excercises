@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f35fe3e-dbdd-4b38-9700-2f93c1e2d22b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module_class_quiz.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time_series_anomaly_detection.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/anomaly-detection-exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/anomaly-detection-exercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering_anomaly_detection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/clustering_anomaly_detection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_probabilistic_methods.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_probabilistic_methods.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discrete_anomaly_detection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/discrete_anomaly_detection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/playground.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../natural-language-processing-exercises/acquire.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../natural-language-processing-exercises/acquire.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../natural-language-processing-exercises" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28i3rW385A76IqdlLe1IdHPR8Oa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,12 +31,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="PythonConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>
